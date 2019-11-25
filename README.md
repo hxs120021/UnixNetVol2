@@ -7,8 +7,8 @@ $ gcc mqcreatel.c -lrt  -> a.out
 
 $ ./a.out /temp.1234
 
-$ ls -l /tmp/ | grep 1234   -> not found
+$ man mq_overview
 
-- I don't know why......
+$ mkdir /dev/mqueue
 
-# wati solve question
+$ ls /dev/mqueue    ->  temp.1234
