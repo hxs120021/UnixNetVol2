@@ -4,8 +4,8 @@ int main(int argc, char **argv){
     mqd_t mqd;
     struct mq_attr attr;
     if(argc != 2){
-	printf("argc number is error");
-	return 0;
+        printf("argc number is error");
+        return 0;
     }
 
     mqd = mq_open(argv[1], O_RDONLY);
